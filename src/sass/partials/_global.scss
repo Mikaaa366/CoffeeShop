@@ -1,0 +1,25 @@
+#pages {
+  > * {
+    display: none;
+  }
+  
+  > .active {
+    display: block;
+  }
+}
+  
+.body {
+  margin: 0;
+  background: #fff;
+  color: #3d3d3d;
+  font-size: $font-size;
+  font-family: $font-text;
+  line-height: 1.7;
+  text-align: center;
+}
+  
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
