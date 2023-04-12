@@ -93,9 +93,9 @@
 }
 
 .header {
-  font-size: $font-size * 3;
+  font-size: $font-size * 4;
   color: $brown;
-  font-weight: 400;
+  font-weight: 600;
   text-align: center;
   padding: 20px;
   display: block;
@@ -105,10 +105,10 @@
   display: block;
   content: '';
   margin-top: 10px;
-  border-bottom: 5px solid;
+  border-bottom: 7px solid;
   color: $brown;
   margin: 0 auto;
-  width: 200px;
+  width: 250px;
 }
 
 .text {
@@ -153,6 +153,7 @@
 }
 
 .product {
+  
   &__name {
     font-size: $font-size * 3;
     font-weight: 700;
@@ -203,14 +204,14 @@
 
 @media (max-width: 650px){
   .description {
-    margin: 0 20px;
+    margin: 0 10px;
     text-align: center;
   }
 
   .product {
     &__image {
-      height: 250px;
-      width: 350px;
+      height: 150px;
+      width: 150px;
     }
 
     &__prize {
@@ -222,7 +223,7 @@
 @media (max-width: 500px) {
   .page-title span {
     position: relative;
-    left: 50px;
+    left: 30px;
   }
 
   .button p, .button i {
@@ -285,8 +286,8 @@
 
   .product {
     &__image {
-      height: 150px;
-      width: 260px;
+      height: 100px;
+      width: 160px;
     }
 
     &__description {
